@@ -108,10 +108,9 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
-.map-frame iframe {
+.map-frame img {
     width: 100%;
-    min-height: 350px;
-    border: 0;
+    height: auto;
     display: block;
 }
 
