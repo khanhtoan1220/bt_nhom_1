@@ -1,0 +1,149 @@
+/* contact.css - Style riêng cho trang Liên hệ */
+
+.contact-banner {
+    background: url('/imgs/anh-pho-co-ha-noi-53.jpg') center/cover;
+}
+
+.page-banner-content p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.page-banner-crumb a {
+    text-decoration: underline;
+}
+
+/* Info cards: địa chỉ - điện thoại - email */
+.info-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    background: var(--white);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.info-card-icon {
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    background: var(--bg-light);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-card-title {
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+.info-card-desc {
+    color: var(--text-light);
+    font-size: 14px;
+}
+
+/* Form liên hệ */
+.contact-form-card {
+    background: var(--white);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: inherit;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: var(--primary-color);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/* Bản đồ */
+.map-frame {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.map-frame iframe {
+    width: 100%;
+    min-height: 350px;
+    border: 0;
+    display: block;
+}
+
+/* Chi nhánh */
+.branch-card {
+    padding: 25px;
+}
+
+.branch-card-city {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.branch-card-addr {
+    color: var(--text-light);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.branch-card-meta {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}
