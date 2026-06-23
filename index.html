@@ -5,11 +5,190 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link href="css/app.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/app.css" />
 </head>
 
 <body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">VietGo Travel</a>
+            <nav class="nav">
+                <a href="index.html" class="active">Trang chủ</a>
+                <a href="about.html">Giới thiệu</a>
+                <a href="destinations.html">Điểm đến</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Liên hệ</a>
+            </nav>
+            <a href="#" class="btn btn-primary">Đặt tour</a>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="container content">
+            <h1>Khám Phá Việt Nam</h1>
+            <div class="search-box">
+                <input type="text" placeholder="Bạn muốn đi đâu? (VD: Đà Lạt, Phú Quốc...)">
+                <button class="btn btn-primary">Tìm kiếm</button>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 bg-white">
+        <div class="container">
+            <h2 class="section-title">Điểm đến nổi bật</h2>
+            <p class="section-desc">Những vùng đất xinh đẹp đang chờ bạn khám phá</p>
+            <div class="grid-3">
+                <div class="card">
+                    <div class="card-img"><img src="imgs/anh-pho-co-ha-noi-53.jpg" alt="Hà Nội"></div>
+                    <div class="card-body">
+                        <h3 class="card-title">Thủ đô Hà Nội</h3>
+                        <p class="card-text">Nét đẹp cổ kính 36 phố phường, văn hóa ngàn năm văn hiến.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img"><img src="imgs/anh-vinh-ha-long-28.jpg" alt="Hạ Long"></div>
+                    <div class="card-body">
+                        <h3 class="card-title">Vịnh Hạ Long</h3>
+                        <p class="card-text">Kỳ quan thiên nhiên thế giới với hàng ngàn đảo đá kỳ vĩ.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img"><img src="imgs/anh-dep-da-nang-2.jpg" alt="Đà Nẵng"></div>
+                    <div class="card-body">
+                        <h3 class="card-title">Thành phố Đà Nẵng</h3>
+                        <p class="card-text">Thành phố đáng sống nhất Việt Nam với những cây cầu độc đáo.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img"><img src="imgs/hoian.png" alt="Hội An"></div>
+                    <div class="card-body">
+                        <h3 class="card-title">Phố cổ Hội An</h3>
+                        <p class="card-text">Vẻ đẹp rêu phong, lung linh đèn lồng bên dòng sông Hoài.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img"><img src="imgs/hinh-anh-da-lat-41.jpg" alt="Đà Lạt"></div>
+                    <div class="card-body">
+                        <h3 class="card-title">Thành phố Đà Lạt</h3>
+                        <p class="card-text">Xứ sở ngàn hoa mát mẻ quanh năm, lãng mạn và mộng mơ.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img"><img src="imgs/anh-dep-ninh-binh-thumbnail.jpg" alt="Phú Quốc"></div>
+                    <div class="card-body">
+                        <h3 class="card-title">Ninh Bình</h3>
+                        <p class="card-text">Thiên đường du lịch tâm linh.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-title">Tour được yêu thích</h2>
+            <p class="section-desc">Lựa chọn hàng đầu của du khách khi đồng hành cùng chúng tôi</p>
+            <div class="grid-3">
 
+                <div class="card">
+                    <div class="card-badge">Hot</div>
+                    <div class="card-img"><img src="imgs/sapa.jpg"></div>
+                    <div class="card-body">
+                        <h3 class="card-title">Khám phá Sapa mùa lúa chín</h3>
+                        <p class="card-text">3 Ngày 2 Đêm - Khởi hành từ Hà Nội</p>
+                        <div class="card-footer">
+                            <span class="price">2.500.000đ</span>
+                            <a href="#" class="btn btn-outline">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img"><img src="imgs/nhatrang.jpg"></div>
+                    <div class="card-body">
+                        <h3 class="card-title">Nha Trang - Thiên đường biển gọi</h3>
+                        <p class="card-text">4 Ngày 3 Đêm - Vui chơi Vinpearl</p>
+                        <div class="card-footer">
+                            <span class="price">3.800.000đ</span>
+                            <a href="#" class="btn btn-outline">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img"><img src="imgs/canh-dep-mien-tay-2.jpg"></div>
+                    <div class="card-body">
+                        <h3 class="card-title">Miền Tây sông nước miệt vườn</h3>
+                        <p class="card-text">2 Ngày 1 Đêm - Chợ nổi Cái Răng</p>
+                        <div class="card-footer">
+                            <span class="price">1.200.000đ</span>
+                            <a href="#" class="btn btn-outline">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="py-5 bg-white text-center">
+        <div class="container">
+
+            <div style="margin-top: 80px;">
+                <h2 class="section-title">Đánh giá từ khách hàng</h2>
+                <div class="grid-3" style="margin-top: 40px; text-align: left;">
+                    <div style="background: var(--bg-light); padding: 20px; border-radius: 8px;">
+                        <p><em>"Chuyến đi cực kỳ thú vị, hướng dẫn viên rất nhiệt tình và chụp ảnh siêu có tâm. Sẽ ủng
+                                hộ công ty dài dài."</em></p>
+                        <h4 style="margin-top: 15px; color: var(--accent-color);">- Anh Hoàng (Hà Nội)</h4>
+                    </div>
+                    <div style="background: var(--bg-light); padding: 20px; border-radius: 8px;">
+                        <p><em>"Giá tour hợp lý, chất lượng khách sạn đúng như cam kết. Gia đình tôi đã có một kỳ nghỉ
+                                tuyệt vời ở Đà Nẵng."</em></p>
+                        <h4 style="margin-top: 15px; color: var(--accent-color);">- Chị Mai (TP.HCM)</h4>
+                    </div>
+                    <div style="background: var(--bg-light); padding: 20px; border-radius: 8px;">
+                        <p><em>"Dịch vụ chăm sóc khách hàng trước và trong khi đi tour rất chu đáo. Rất yên tâm khi đặt
+                                tour ở đây."</em></p>
+                        <h4 style="margin-top: 15px; color: var(--accent-color);">- Bác Hải (Đà Nẵng)</h4>
+                    </div>
+                    <div style="background: var(--bg-light); padding: 20px; border-radius: 8px;">
+                        <p><em>"Nói chung là ok"</em></p>
+                        <h4 style="margin-top: 15px; color: var(--accent-color);">- Xyz</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container grid-4">
+            <div>
+                <a href="#" class="logo" style="color: white;">VietGo Travel</a>
+                <p style="margin-top: 15px; font-size: 14px;">Mang Việt Nam đến gần hơn với bạn bằng những chuyến đi
+                    chất lượng và uy tín nhất.</p>
+                <div class="social-links">
+                    <a href="#">F</a> <a href="#">I</a> <a href="#">Y</a>
+                </div>
+            </div>
+            <div>
+                <h3>Liên hệ</h3>
+                <ul>
+                    <li>123 ABC Quận 1, TP.XYZ</li>
+                    <li>Hotline: 1900 1234</li>
+                    <li>Email: info@vietgotravel.com</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Liên kết nhanh</h3>
+                <ul>
+                    <li><a href="about.html">Về chúng tôi</a></li>
+                    <li><a href="destinations.html">Điểm đến</a></li>
+                    <li><a href="blog.html">Cẩm nang du lịch</a></li>
+                    <li><a href="#">Điều khoản dịch vụ</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 VietGo Travel. All rights reserved.</p>
+        </div>
+    </footer>
+    </footer>
 </body>
 
 </html>
