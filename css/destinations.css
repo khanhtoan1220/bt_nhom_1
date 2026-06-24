@@ -1,0 +1,27 @@
+.filter-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.filter-tabs__item {
+    padding: 15px 35px;
+    border: 2px solid #e0e3eb;
+    border-radius: 50px; /* tạo khung tròn */
+    background: #fff;
+    color: #5a6a85;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.filter-tabs__item:hover {
+    background: #f5f7ff;
+}
+
+.filter-tabs__item.active {
+    background: #2f5bd3;
+    color: white;
+    border-color: #2f5bd3;
+}
