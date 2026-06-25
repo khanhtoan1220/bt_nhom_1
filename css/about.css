@@ -200,7 +200,14 @@ footer{
 .footer-item a{
     text-decoration: underline;
 }
-
+.member:hover{
+      transform: scale(1.1);
+      transition: 0.5s;
+}
+.confirm>button:hover{
+     transform: scale(1.1);
+      transition: 0.5s;
+}
 @media screen and (max-width:1024px) {
     .img-us{
     width: 70%;
