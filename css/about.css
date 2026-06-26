@@ -163,7 +163,10 @@ body{
  width: 140vh;
 }
 .ready-form{
-    margin-top: 17%;  
+    margin-top: 17%;
+    padding: 10px;
+    
+     
     
 }
 .ready-content{
@@ -178,10 +181,17 @@ padding: 60px 0px 20px 50px;
     margin-right: 10px;
     margin-top: 30px;
 }
-
+.member:hover{
+      transform: scale(1.1);
+      transition: 0.5s;
+}
+.confirm>button:hover{
+     transform: scale(1.1);
+      transition: 0.5s;
+}
 
 /* footer */
-footer{
+/* footer{
     margin-top: 10%;
     background-color:#F5F5F5;
     padding:90px 0px 0px 0px ;
@@ -199,15 +209,8 @@ footer{
 }
 .footer-item a{
     text-decoration: underline;
-}
-.member:hover{
-      transform: scale(1.1);
-      transition: 0.5s;
-}
-.confirm>button:hover{
-     transform: scale(1.1);
-      transition: 0.5s;
-}
+} */
+
 @media screen and (max-width:1024px) {
     .img-us{
     width: 70%;
