@@ -1,0 +1,219 @@
+/* home.css - Dành riêng cho trang chủ */
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+   
+}
+
+body{
+     background-color: #F8F8FF;
+}
+.banner {
+    height: 60vh;
+    background: url('../imgs/banner4.jpg') center/cover;
+    display: flex;
+    align-items: center;
+    color: white
+}
+
+.banner .content {
+    margin-left: 15%;  
+}
+.content {
+    /* z-index: 0; */
+    line-height: 40px;
+    width: 90%;
+}
+
+.content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 800;
+   
+}
+
+.content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+     width: 70%;
+}
+.Introduce{
+    display: flex;
+    margin-top: 70px;
+    gap: 40px;
+}
+.about-us{
+    width: 90%;
+}
+.img-us{
+    width: 50%;
+    
+    border-radius: 5px;
+    box-shadow: -4px 10px 20px 5px rgba(0, 0, 0, 0.5);
+
+}
+.title{
+    font-weight: bold;
+
+}
+.Introduce p{
+    line-height: 1.8;
+}
+.parameter{
+    display: flex;
+    gap: 100px;
+    margin-top: 9px;
+}
+.pr{
+    color: rgb(16, 103, 202);
+
+}
+.parameter p{
+  font-size: 20px;
+}
+.core{
+    margin-top: 10%;
+}
+.core-content{
+    display: flex;
+    gap: 3%;
+    margin-top: 3%;
+}
+.card-body h5{
+    text-align:center ;
+    
+}
+.card{
+    width:60%;
+    border-radius: 10px;
+    
+}
+.card-body h5{
+    font-size: 25px;
+}
+.card-body p{
+    text-align: center;
+
+}
+.card-body{
+    /* padding:80px 20px 80px 20px; */
+    margin: 30px 20px 20px 30px;
+}
+/* .core{
+    background-color: #F5F5F5;
+} */
+.landmark-content{
+    display: flex ;
+   padding: 100px 0px 100px 0px;
+}
+
+.landmark-item1{
+    text-align: right;
+    padding-right: 6%;
+}
+.landmark-item1 img{
+    width: 90%;
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 100px 0px 100px 0px;
+}
+.landmark{
+    margin-top: 100px;
+}
+.landmark-item{
+   
+    padding-left: 6%;
+}
+.p-content{
+    line-height: 2;
+    /* font-size: 18px; */
+    color: #696969;
+}
+.r-img img{
+    width: 90%;
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 100px 0px 100px 0px;
+}
+.team{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.member p{
+    text-align: left;
+    padding-left: 10px;
+    color: #696969;
+    font-size: 15px;
+}
+.member img{
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+}
+.line-1{
+    display: flex;
+    justify-content: space-between;
+}
+.container.form{
+ background-color:#1b66d6;
+ height: 30vh;
+ border-radius: 35px;
+ width: 140vh;
+}
+.ready-form{
+    margin-top: 17%;
+    padding: 10px;
+    
+     
+    
+}
+.ready-content{
+color:#F8F8FF;
+padding: 60px 0px 20px 50px;
+}
+.ready-content .confirm button{
+    border-radius: 50px;
+    height: 5vh;
+    width: 20vh;
+    border: none;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.member:hover{
+      transform: scale(1.1);
+      transition: 0.5s;
+}
+.confirm>button:hover{
+     transform: scale(1.1);
+      transition: 0.5s;
+}
+
+/* footer */
+/* footer{
+    margin-top: 10%;
+    background-color:#F5F5F5;
+    padding:90px 0px 0px 0px ;
+}
+.footer-content{
+    display: flex;
+    justify-content:space-evenly;
+  color: #696969;
+    font-size: 15px;
+    line-height: 2.0;
+}
+.footer-item{
+    width: 30%;
+    padding-left: 10%;
+}
+.footer-item a{
+    text-decoration: underline;
+} */
+
+@media screen and (max-width:1024px) {
+    .img-us{
+    width: 70%;
+     
+}
+}
