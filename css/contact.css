@@ -1,16 +1,9 @@
 /* contact.css - Style riêng cho trang Liên hệ */
 
+/* Banner: tái sử dụng component .banner/.content của Home (index.css),
+   dùng cùng ảnh nền với Home */
 .contact-banner {
-    background: url('/imgs/anh-pho-co-ha-noi-53.jpg') center/cover;
-}
-
-.page-banner-content p {
-    margin-top: 10px;
-    font-size: 14px;
-}
-
-.page-banner-crumb a {
-    text-decoration: underline;
+    background-image: url('/imgs/banner.avif');
 }
 
 /* Info cards: địa chỉ - điện thoại - email */
