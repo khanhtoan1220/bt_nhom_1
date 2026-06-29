@@ -9,7 +9,7 @@ body{
 }
 .banner {
     height: 60vh;
-    background: url('/imgs/banner4.jpg') center/cover;
+    background: url('../imgs/banner4.jpg') center/cover;
     display: flex;
     align-items: center;
     color: white
